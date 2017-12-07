@@ -31,6 +31,7 @@
 		49C70C631FD92EFC0023BC99 /* vHomeVideoPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C70C611FD92EFC0023BC99 /* vHomeVideoPlayController.m */; };
 		49C70C641FD92EFC0023BC99 /* vHomeVideoPlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49C70C621FD92EFC0023BC99 /* vHomeVideoPlayController.xib */; };
 		49C70C681FD9313A0023BC99 /* vMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C70C671FD9313A0023BC99 /* vMainViewController.m */; };
+		49C70C6B1FD936160023BC99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C70C6A1FD936160023BC99 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		49C70C621FD92EFC0023BC99 /* vHomeVideoPlayController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = vHomeVideoPlayController.xib; sourceTree = "<group>"; };
 		49C70C661FD9313A0023BC99 /* vMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vMainViewController.h; sourceTree = "<group>"; };
 		49C70C671FD9313A0023BC99 /* vMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vMainViewController.m; sourceTree = "<group>"; };
+		49C70C6A1FD936160023BC99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 		494EAAF11FD7C63A0053B9C9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				49C70C6A1FD936160023BC99 /* Assets.xcassets */,
 				494EAABE1FD7C5A30053B9C9 /* AppDelegate.h */,
 				494EAABF1FD7C5A30053B9C9 /* AppDelegate.m */,
 				494EAAC11FD7C5A30053B9C9 /* ViewController.h */,
@@ -407,6 +410,7 @@
 				494EAACB1FD7C5A30053B9C9 /* LaunchScreen.storyboard in Resources */,
 				49C70C641FD92EFC0023BC99 /* vHomeVideoPlayController.xib in Resources */,
 				494EAAC61FD7C5A30053B9C9 /* Main.storyboard in Resources */,
+				49C70C6B1FD936160023BC99 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
