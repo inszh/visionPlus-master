@@ -8,6 +8,7 @@
 
 #import "vHOMEViewController.h"
 #import "vHomePalyVideoListDelegate_DataSource.h"
+#import "vHomeVideoPlayController.h"
 
 @interface vHOMEViewController ()
 
@@ -43,8 +44,14 @@
 
 -(vHomePalyVideoListDelegate_DataSource *)homePlayVideodelegate_DataSource
 {
+    
     if (!_homePlayVideodelegate_DataSource) {
+        __weak typeof(self) wself = self;
         _homePlayVideodelegate_DataSource=[vHomePalyVideoListDelegate_DataSource new];
+        _homePlayVideodelegate_DataSource.didSelectRowAtIndexPathBlock = ^(NSIndexPath *indexPath) {
+            vHomeVideoPlayController * videoPlay=[vHomeVideoPlayController new];
+            [wself.navigationController pushViewController:videoPlay animated:YES];
+        };
     }
     return _homePlayVideodelegate_DataSource;
 }

@@ -10,7 +10,6 @@
 		494EAAC01FD7C5A30053B9C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 494EAABF1FD7C5A30053B9C9 /* AppDelegate.m */; };
 		494EAAC31FD7C5A30053B9C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494EAAC21FD7C5A30053B9C9 /* ViewController.m */; };
 		494EAAC61FD7C5A30053B9C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494EAAC41FD7C5A30053B9C9 /* Main.storyboard */; };
-		494EAAC81FD7C5A30053B9C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494EAAC71FD7C5A30053B9C9 /* Assets.xcassets */; };
 		494EAACB1FD7C5A30053B9C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494EAAC91FD7C5A30053B9C9 /* LaunchScreen.storyboard */; };
 		494EAACE1FD7C5A30053B9C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 494EAACD1FD7C5A30053B9C9 /* main.m */; };
 		494EAAD81FD7C5A30053B9C9 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494EAAD71FD7C5A30053B9C9 /* ___Tests.m */; };
@@ -29,6 +28,9 @@
 		494EAB221FD7ECAE0053B9C9 /* vHomeItemListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494EAB201FD7ECAE0053B9C9 /* vHomeItemListCell.xib */; };
 		494EAB251FD7ED0A0053B9C9 /* UITableViewCell+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 494EAB241FD7ED0A0053B9C9 /* UITableViewCell+Extend.m */; };
 		494EAB281FD7ED950053B9C9 /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 494EAB271FD7ED950053B9C9 /* UIView+Extend.m */; };
+		49C70C631FD92EFC0023BC99 /* vHomeVideoPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C70C611FD92EFC0023BC99 /* vHomeVideoPlayController.m */; };
+		49C70C641FD92EFC0023BC99 /* vHomeVideoPlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49C70C621FD92EFC0023BC99 /* vHomeVideoPlayController.xib */; };
+		49C70C681FD9313A0023BC99 /* vMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C70C671FD9313A0023BC99 /* vMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +57,6 @@
 		494EAAC11FD7C5A30053B9C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		494EAAC21FD7C5A30053B9C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		494EAAC51FD7C5A30053B9C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		494EAAC71FD7C5A30053B9C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		494EAACA1FD7C5A30053B9C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		494EAACC1FD7C5A30053B9C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		494EAACD1FD7C5A30053B9C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -95,6 +96,11 @@
 		494EAB241FD7ED0A0053B9C9 /* UITableViewCell+Extend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Extend.m"; sourceTree = "<group>"; };
 		494EAB261FD7ED950053B9C9 /* UIView+Extend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
 		494EAB271FD7ED950053B9C9 /* UIView+Extend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extend.m"; sourceTree = "<group>"; };
+		49C70C601FD92EFC0023BC99 /* vHomeVideoPlayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vHomeVideoPlayController.h; sourceTree = "<group>"; };
+		49C70C611FD92EFC0023BC99 /* vHomeVideoPlayController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vHomeVideoPlayController.m; sourceTree = "<group>"; };
+		49C70C621FD92EFC0023BC99 /* vHomeVideoPlayController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = vHomeVideoPlayController.xib; sourceTree = "<group>"; };
+		49C70C661FD9313A0023BC99 /* vMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vMainViewController.h; sourceTree = "<group>"; };
+		49C70C671FD9313A0023BC99 /* vMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +151,7 @@
 		494EAABD1FD7C5A30053B9C9 /* 视力+ */ = {
 			isa = PBXGroup;
 			children = (
+				49C70C651FD931160023BC99 /* Main */,
 				494EAAF61FD7CD6E0053B9C9 /* Home */,
 				494EAAF71FD7CD6E0053B9C9 /* Profile */,
 				494EAAF41FD7CA530053B9C9 /* Other */,
@@ -179,7 +186,6 @@
 				494EAAC11FD7C5A30053B9C9 /* ViewController.h */,
 				494EAAC21FD7C5A30053B9C9 /* ViewController.m */,
 				494EAAC41FD7C5A30053B9C9 /* Main.storyboard */,
-				494EAAC71FD7C5A30053B9C9 /* Assets.xcassets */,
 				494EAAC91FD7C5A30053B9C9 /* LaunchScreen.storyboard */,
 				494EAACC1FD7C5A30053B9C9 /* Info.plist */,
 				494EAACD1FD7C5A30053B9C9 /* main.m */,
@@ -255,6 +261,9 @@
 			children = (
 				494EAAF81FD7CDEA0053B9C9 /* vHOMEViewController.h */,
 				494EAAF91FD7CDEA0053B9C9 /* vHOMEViewController.m */,
+				49C70C601FD92EFC0023BC99 /* vHomeVideoPlayController.h */,
+				49C70C611FD92EFC0023BC99 /* vHomeVideoPlayController.m */,
+				49C70C621FD92EFC0023BC99 /* vHomeVideoPlayController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -276,6 +285,15 @@
 				494EAB201FD7ECAE0053B9C9 /* vHomeItemListCell.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		49C70C651FD931160023BC99 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				49C70C661FD9313A0023BC99 /* vMainViewController.h */,
+				49C70C671FD9313A0023BC99 /* vMainViewController.m */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,7 +405,7 @@
 			files = (
 				494EAB221FD7ECAE0053B9C9 /* vHomeItemListCell.xib in Resources */,
 				494EAACB1FD7C5A30053B9C9 /* LaunchScreen.storyboard in Resources */,
-				494EAAC81FD7C5A30053B9C9 /* Assets.xcassets in Resources */,
+				49C70C641FD92EFC0023BC99 /* vHomeVideoPlayController.xib in Resources */,
 				494EAAC61FD7C5A30053B9C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,11 +437,13 @@
 				494EAACE1FD7C5A30053B9C9 /* main.m in Sources */,
 				494EAB251FD7ED0A0053B9C9 /* UITableViewCell+Extend.m in Sources */,
 				494EAB211FD7ECAE0053B9C9 /* vHomeItemListCell.m in Sources */,
+				49C70C631FD92EFC0023BC99 /* vHomeVideoPlayController.m in Sources */,
 				494EAB281FD7ED950053B9C9 /* UIView+Extend.m in Sources */,
 				494EAB141FD7CF110053B9C9 /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
 				494EAB111FD7CF110053B9C9 /* UIControl+CYLTabBarControllerExtention.m in Sources */,
 				494EAB1D1FD7E99E0053B9C9 /* vHomePalyVideoListDelegate_DataSource.m in Sources */,
 				494EAAFA1FD7CDEA0053B9C9 /* vHOMEViewController.m in Sources */,
+				49C70C681FD9313A0023BC99 /* vMainViewController.m in Sources */,
 				494EAB121FD7CF110053B9C9 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */,
 				494EAB131FD7CF110053B9C9 /* UIView+CYLTabBarControllerExtention.m in Sources */,
 				494EAAFD1FD7CE7B0053B9C9 /* vProfileViewController.m in Sources */,

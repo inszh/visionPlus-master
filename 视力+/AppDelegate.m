@@ -10,6 +10,7 @@
 #import "CYLTabBarController.h"
 #import "vHOMEViewController.h"
 #import "vProfileViewController.h"
+#import "vMainViewController.h"
 
 @interface AppDelegate ()<UITabBarControllerDelegate>
 
@@ -26,10 +27,10 @@
     self.window.frame = [UIScreen mainScreen].bounds;
   
     vHOMEViewController *home = [vHOMEViewController new];
-    UIViewController *homeNav = [[UINavigationController alloc]
+    UIViewController *homeNav = [[vMainViewController alloc]
                                                    initWithRootViewController:home];
     vProfileViewController *profile = [vProfileViewController new];
-    UIViewController *profileNav = [[UINavigationController alloc]
+    UIViewController *profileNav = [[vMainViewController alloc]
                                                     initWithRootViewController:profile];
     
     

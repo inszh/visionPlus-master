@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface vHomePalyVideoListDelegate_DataSource : NSObject<UITableViewDataSource,UITableViewDelegate>
+@property (copy ,nonatomic) void (^didSelectRowAtIndexPathBlock)(NSIndexPath *indexPath);
 
 @end

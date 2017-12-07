@@ -32,5 +32,12 @@
     return 200;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (self.didSelectRowAtIndexPathBlock) {
+        self.didSelectRowAtIndexPathBlock(indexPath);
+    }
+}
+
 
 @end
