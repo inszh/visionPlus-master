@@ -16,7 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self setupView];
     // Do any additional setup after loading the view.
+}
+
+- (void)setupView
+{
+    self.title=@"我";
+
 }
 
 

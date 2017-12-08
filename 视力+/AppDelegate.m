@@ -40,16 +40,33 @@
     NSDictionary *dict1 = @{
                             CYLTabBarItemTitle : @"首页",
                             CYLTabBarItemImage : @"home_normal",
-                            CYLTabBarItemSelectedImage : @"home_highlight",
+                            CYLTabBarItemSelectedImage : @"home_normal",
                             };
     NSDictionary *dict2 = @{
-                            CYLTabBarItemTitle : @"我的",
+                            CYLTabBarItemTitle : @"我",
                             CYLTabBarItemImage : @"account_normal",
-                            CYLTabBarItemSelectedImage : @"account_highlight",
+                            CYLTabBarItemSelectedImage : @"account_normal",
                             };
     
     NSArray *tabBarItemsAttributes = @[ dict1, dict2 ];
     tabBarController.tabBarItemsAttributes = tabBarItemsAttributes;
+    
+    // 普通状态下的文字属性
+    NSMutableDictionary *normalAttrs = [NSMutableDictionary dictionary];
+    normalAttrs[NSForegroundColorAttributeName] = [UIColor grayColor];
+    
+    // 选中状态下的文字属性
+    NSMutableDictionary *selectedAttrs = [NSMutableDictionary dictionary];
+    selectedAttrs[NSForegroundColorAttributeName] = [UIColor darkGrayColor];
+    
+    // 设置文字属性
+    UITabBarItem *tabBar = [UITabBarItem appearance];
+    [tabBar setTitleTextAttributes:normalAttrs forState:UIControlStateNormal];
+    [tabBar setTitleTextAttributes:selectedAttrs forState:UIControlStateSelected];
+    
+    // 设置背景图片
+    UITabBar *tabBarAppearance = [UITabBar appearance];
+    [tabBarAppearance setBackgroundImage:[UIImage imageNamed:@"tabbar_background"]];
     
     [tabBarController setViewControllers:@[
                                            homeNav,

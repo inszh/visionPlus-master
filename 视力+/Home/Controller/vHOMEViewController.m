@@ -29,7 +29,7 @@
 - (void)setupView
 {
     self.view.backgroundColor=[UIColor whiteColor];
-    
+    self.title=@"视力+";
     UITableView *tableView=[UITableView new];
     tableView.frame=CGRectMake(0, 0, ScreenW, ScreenH);
     tableView.delegate=self.homePlayVideodelegate_DataSource;
