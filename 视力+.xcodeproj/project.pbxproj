@@ -32,6 +32,10 @@
 		49C70C641FD92EFC0023BC99 /* vHomeVideoPlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49C70C621FD92EFC0023BC99 /* vHomeVideoPlayController.xib */; };
 		49C70C681FD9313A0023BC99 /* vMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C70C671FD9313A0023BC99 /* vMainViewController.m */; };
 		49C70C6B1FD936160023BC99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C70C6A1FD936160023BC99 /* Assets.xcassets */; };
+		49C712A81FDA87C60023BC99 /* vPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C712A71FDA87C60023BC99 /* vPlayerView.m */; };
+		49F9E0411FE3773E00074E5E /* IMG_5596.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 49F9E0401FE3773E00074E5E /* IMG_5596.MOV */; };
+		49F9E0441FE3B46100074E5E /* vVideoPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F9E0431FE3B46100074E5E /* vVideoPlayManager.m */; };
+		49F9E0481FE3B54D00074E5E /* vVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F9E0471FE3B54D00074E5E /* vVideoModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +107,13 @@
 		49C70C661FD9313A0023BC99 /* vMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vMainViewController.h; sourceTree = "<group>"; };
 		49C70C671FD9313A0023BC99 /* vMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vMainViewController.m; sourceTree = "<group>"; };
 		49C70C6A1FD936160023BC99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49C712A61FDA87C60023BC99 /* vPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vPlayerView.h; sourceTree = "<group>"; };
+		49C712A71FDA87C60023BC99 /* vPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vPlayerView.m; sourceTree = "<group>"; };
+		49F9E0401FE3773E00074E5E /* IMG_5596.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_5596.MOV; sourceTree = "<group>"; };
+		49F9E0421FE3B46100074E5E /* vVideoPlayManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vVideoPlayManager.h; sourceTree = "<group>"; };
+		49F9E0431FE3B46100074E5E /* vVideoPlayManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vVideoPlayManager.m; sourceTree = "<group>"; };
+		49F9E0461FE3B54D00074E5E /* vVideoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vVideoModel.h; sourceTree = "<group>"; };
+		49F9E0471FE3B54D00074E5E /* vVideoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vVideoModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +194,7 @@
 		494EAAF11FD7C63A0053B9C9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				49F9E0401FE3773E00074E5E /* IMG_5596.MOV */,
 				49C70C6A1FD936160023BC99 /* Assets.xcassets */,
 				494EAABE1FD7C5A30053B9C9 /* AppDelegate.h */,
 				494EAABF1FD7C5A30053B9C9 /* AppDelegate.m */,
@@ -206,6 +218,8 @@
 				494EAB241FD7ED0A0053B9C9 /* UITableViewCell+Extend.m */,
 				494EAB261FD7ED950053B9C9 /* UIView+Extend.h */,
 				494EAB271FD7ED950053B9C9 /* UIView+Extend.m */,
+				49F9E0421FE3B46100074E5E /* vVideoPlayManager.h */,
+				49F9E0431FE3B46100074E5E /* vVideoPlayManager.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -221,6 +235,7 @@
 		494EAAF61FD7CD6E0053B9C9 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				49F9E0451FE3B54000074E5E /* Model */,
 				494EAB151FD7D6FC0053B9C9 /* Controller */,
 				494EAB171FD7D6FC0053B9C9 /* Protocol */,
 				494EAB181FD7D6FC0053B9C9 /* View */,
@@ -286,6 +301,8 @@
 				494EAB1E1FD7ECAE0053B9C9 /* vHomeItemListCell.h */,
 				494EAB1F1FD7ECAE0053B9C9 /* vHomeItemListCell.m */,
 				494EAB201FD7ECAE0053B9C9 /* vHomeItemListCell.xib */,
+				49C712A61FDA87C60023BC99 /* vPlayerView.h */,
+				49C712A71FDA87C60023BC99 /* vPlayerView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -297,6 +314,15 @@
 				49C70C671FD9313A0023BC99 /* vMainViewController.m */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		49F9E0451FE3B54000074E5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49F9E0461FE3B54D00074E5E /* vVideoModel.h */,
+				49F9E0471FE3B54D00074E5E /* vVideoModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,6 +437,7 @@
 				49C70C641FD92EFC0023BC99 /* vHomeVideoPlayController.xib in Resources */,
 				494EAAC61FD7C5A30053B9C9 /* Main.storyboard in Resources */,
 				49C70C6B1FD936160023BC99 /* Assets.xcassets in Resources */,
+				49F9E0411FE3773E00074E5E /* IMG_5596.MOV in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,9 +470,12 @@
 				494EAB211FD7ECAE0053B9C9 /* vHomeItemListCell.m in Sources */,
 				49C70C631FD92EFC0023BC99 /* vHomeVideoPlayController.m in Sources */,
 				494EAB281FD7ED950053B9C9 /* UIView+Extend.m in Sources */,
+				49F9E0441FE3B46100074E5E /* vVideoPlayManager.m in Sources */,
 				494EAB141FD7CF110053B9C9 /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
 				494EAB111FD7CF110053B9C9 /* UIControl+CYLTabBarControllerExtention.m in Sources */,
 				494EAB1D1FD7E99E0053B9C9 /* vHomePalyVideoListDelegate_DataSource.m in Sources */,
+				49C712A81FDA87C60023BC99 /* vPlayerView.m in Sources */,
+				49F9E0481FE3B54D00074E5E /* vVideoModel.m in Sources */,
 				494EAAFA1FD7CDEA0053B9C9 /* vHOMEViewController.m in Sources */,
 				49C70C681FD9313A0023BC99 /* vMainViewController.m in Sources */,
 				494EAB121FD7CF110053B9C9 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */,

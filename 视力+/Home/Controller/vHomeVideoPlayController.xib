@@ -55,6 +55,9 @@
                     </constraints>
                     <state key="normal" image="v_play"/>
                     <state key="selected" image="v_pause"/>
+                    <connections>
+                        <action selector="playVideo:" destination="-1" eventType="touchUpInside" id="6AH-tx-ddJ"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXQ-bz-7RY">
                     <rect key="frame" x="300" y="549.5" width="55" height="55"/>
